@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Tour Guide</string>
+
+    <!-- attraction-->
+    <string name="attraction_anggrek">Taman Anggrek Indonesia</string>
+    <string name="attraction_aquarium">Taman Aquarium Air Tawar TMII</string>
+    <string name="attraction_fauna">Museum Fauna Indonesia</string>
+    <string name="attraction_istana">Istana Anak-anak Indonesia</string>
+    <string name="attraction_migas">Museum Migas Graha Widya Patra</string>
+    <string name="attraction_prajurit">Museum Keprajuritan Indonesia</string>
+    <string name="attraction_skyworld">Skyworld TMII</string>
+    <string name="attraction_wiladatika">Taman Wiladatika</string>
+
+    <!-- attraction location -->
+    <string name="attraction_loc_anggrek">Jl. Pinang Ranti No. 78, Pinang Ranti, Makasar, Jakarta Timur.</string>
+    <string name="attraction_loc_aquarium">Jl. Raya TMII, Ceger, Cipayung, Jakarta Timur.</string>
+    <string name="attraction_loc_fauna">Jl. Taman Mini Indonesia Indah, Ceger, Cipayung, Jakarta Timur.</string>
+    <string name="attraction_loc_istana">Jl. Taman Mini Indonesia Indah, Ceger, Cipayung, Jakarta Timur.</string>
+    <string name="attraction_loc_migas">Jl. Taman Mini Indonesia Indah, Bambu Apus, Cipayung, Jakarta Timur.</string>
+    <string name="attraction_loc_prajurit">Jl. Raya Taman Mini, Ceger, Cipayung, Jakarta Timur.</string>
+    <string name="attraction_loc_skyworld">Jl. Taman Mini Raya, Lubang Buaya, Cipayung, Jakarta Timur.</string>
+    <string name="attraction_loc_wiladatika">Jl. Jambore 1, Cibubur, Ciracas, Jakarta Timur.</string>
+
 </resources>
