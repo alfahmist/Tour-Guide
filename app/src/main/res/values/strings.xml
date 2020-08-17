@@ -2,26 +2,71 @@
     <string name="app_name">Tour Guide</string>
 
     <!--  Category  -->
+    <string name="park">Park</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="museum">Museum</string>
+    <string name="hotel">hotel</string>
 
-    <string name="attraction">Attraction</string>
-    <!-- attraction-->
-    <string name="attraction_anggrek">Taman Anggrek Indonesia</string>
-    <string name="attraction_aquarium">Taman Aquarium Air Tawar TMII</string>
-    <string name="attraction_fauna">Museum Fauna Indonesia</string>
-    <string name="attraction_istana">Istana Anak-anak Indonesia</string>
-    <string name="attraction_migas">Museum Migas Graha Widya Patra</string>
-    <string name="attraction_prajurit">Museum Keprajuritan Indonesia</string>
-    <string name="attraction_skyworld">Skyworld TMII</string>
-    <string name="attraction_wiladatika">Taman Wiladatika</string>
+    <!-- park-->
+    <string name="park_anggrek">Taman Anggrek Indonesia</string>
+    <string name="park_aquarium">Taman Aquarium Air Tawar TMII</string>
+    <string name="park_istana">Istana Anak-anak Indonesia</string>
+    <string name="park_skyworld">Skyworld TMII</string>
+    <string name="park_wiladatika">Taman Wiladatika</string>
 
-    <!-- attraction location -->
-    <string name="attraction_loc_anggrek">Jl. Pinang Ranti No. 78, Pinang Ranti, Makasar, Jakarta Timur.</string>
-    <string name="attraction_loc_aquarium">Jl. Raya TMII, Ceger, Cipayung, Jakarta Timur.</string>
-    <string name="attraction_loc_fauna">Jl. Taman Mini Indonesia Indah, Ceger, Cipayung, Jakarta Timur.</string>
-    <string name="attraction_loc_istana">Jl. Taman Mini Indonesia Indah, Ceger, Cipayung, Jakarta Timur.</string>
-    <string name="attraction_loc_migas">Jl. Taman Mini Indonesia Indah, Bambu Apus, Cipayung, Jakarta Timur.</string>
-    <string name="attraction_loc_prajurit">Jl. Raya Taman Mini, Ceger, Cipayung, Jakarta Timur.</string>
-    <string name="attraction_loc_skyworld">Jl. Taman Mini Raya, Lubang Buaya, Cipayung, Jakarta Timur.</string>
-    <string name="attraction_loc_wiladatika">Jl. Jambore 1, Cibubur, Ciracas, Jakarta Timur.</string>
+    <!-- museum -->
+    <string name="museum_fauna">Museum Fauna Indonesia</string>
+    <string name="museum_migas">Museum Migas Graha Widya Patra</string>
+    <string name="museum_prajurit">Museum Keprajuritan Indonesia</string>
+    <string name="museum_gajah">Museum Gajah</string>
+    <string name="museum_fatahillah">Museum Fatahillah </string>
+
+    <!-- hotel-->
+    <string name="hotel_swissotel">Swissotel Jakarta PIK Avenue</string>
+    <string name="hotel_gajah">Holiday Inn &amp; Suites Jakarta Gajah Mada</string>
+    <string name="hotel_pondok">InterContinental Hotels Jakarta Pondok Indah</string>
+    <string name="hotel_westin">The Westin Jakarta</string>
+    <string name="hotel_four">Four Seasons Hotel Jakarta</string>
+
+    <!-- hotel location-->
+    <string name="hotel_loc_swissotel">Jl. Indah Kapuk Kamal Muara Penjaringan North Jakarta, 14470 Jakarta, Indonesia</string>
+    <string name="hotel_loc_gajah">Jl. Gajah Mada No. 211, 11120 Jakarta, Indonesia</string>
+    <string name="hotel_loc_pondok">Jl.Metro Pondok Indah kav. IV TA, 12310 Jakarta, Indonesia</string>
+    <string name="hotel_loc_westin">Jl. HR Rasuna said Kav C-22, 12940 Jakarta, Indonesia</string>
+    <string name="hotel_loc_four">Jl. Jendral Gatot Subroto Kav 18, 12710 Jakarta, Indonesia</string>
+
+    <!-- park location -->
+    <string name="park_loc_anggrek">Jl. Pinang Ranti No. 78, Pinang Ranti, Makasar, Jakarta Timur.</string>
+    <string name="park_loc_aquarium">Jl. Raya TMII, Ceger, Cipayung, Jakarta Timur.</string>
+    <string name="park_loc_istana">Jl. Taman Mini Indonesia Indah, Ceger, Cipayung, Jakarta Timur.</string>
+    <string name="park_loc_skyworld">Jl. Taman Mini Raya, Lubang Buaya, Cipayung, Jakarta Timur.</string>
+    <string name="park_loc_wiladatika">Jl. Jambore 1, Cibubur, Ciracas, Jakarta Timur.</string>
+
+    <!-- museum location   -->
+    <string name="museum_loc_fauna">Jl. Taman Mini Indonesia Indah, Ceger, Cipayung, Jakarta Timur.</string>
+    <string name="museum_loc_migas">Jl. Taman Mini Indonesia Indah, Bambu Apus, Cipayung, Jakarta Timur.</string>
+    <string name="museum_loc_prajurit">Jl. Raya Taman Mini, Ceger, Cipayung, Jakarta Timur.</string>
+    <string name="museum_loc_gajah">Jl. Jembatan Batu No.3, Pinangsia, Tamansari, RT.3/RW.6, Pinangsia, Tamansari, Kota Jakarta Barat</string>
+    <string name="museum_loc_fatahillah">Jl. Taman Fatahillah No.1, Pinangsia, Tamansari, Kota Jakarta Bara</string>
+
+    <!-- restaurant-->
+    <string name="restaurant_quiznos">Quiznos Sub</string>
+    <string name="restaurant_locale">Restoran 24 Jam: Kedai Locale</string>
+    <string name="restaurant_martabak">Naniura Sushibar &amp; Resto</string>
+    <string name="restaurant_kongkow">Rumah Kongkow Cafe &amp; Bistro</string>
+    <string name="restaurant_nomi">NoMiNoMi Delight</string>
+    <string name="restaurant_ayam">Ayam Goreng Mat Lengket</string>
+    <string name="restaurant_asinan">Asinan Betawi H.Mansyur</string>
+    <string name="restaurant_defacto">De Facto Coffee &amp; Eatery</string>
+
+    <!-- restaurant location -->
+    <string name="restaurant_loc_quiznos">Jl. Pemuda, Rawamangun, Jakarta Timur.</string>
+    <string name="restaurant_loc_locale">Jl. Balai Pustaka No.10, Rawamangun Jakarta Timur.</string>
+    <string name="restaurant_loc_martabak">Jl. Jalan Kalimalang Raya No. 6, Jakarta Timur.</string>
+    <string name="restaurant_loc_kongkow">Jl. Alu – alu, Rawamangun, Jakarta Timur.</string>
+    <string name="restaurant_loc_nomi">Jl. Pemuda No. 72-73 DE, Jakarta Timur.</string>
+    <string name="restaurant_loc_ayam">Jl. Inspeksi Kalimalang, Jakarta Timur.</string>
+    <string name="restaurant_loc_asinan">Jl. Taman Kamboja 3 No. 10, Rawamangun, Jakarta Timur.</string>
+    <string name="restaurant_loc_defacto">Jl.Balai Pustaka Timur, Blok A7 No.39, Rawamangun, Jakarta Timur.</string>
 
 </resources>

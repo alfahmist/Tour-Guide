@@ -22,13 +22,13 @@ public class FragmentAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
 
         if (position == 0) {
-            return new AttractionFragment();
+            return new ParkFragment();
         } else if (position == 1) {
-            return new AttractionFragment();
+            return new RestaurantFragment();
         } else if (position == 2) {
-            return new AttractionFragment();
+            return new MuseumFragment();
         } else {
-            return new AttractionFragment();
+            return new HotelFragment();
         }
     }
 
@@ -41,13 +41,13 @@ public class FragmentAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return mContext.getString(R.string.attraction);
+            return mContext.getString(R.string.park);
         } else if (position == 1) {
-            return mContext.getString(R.string.attraction);
+            return mContext.getString(R.string.restaurant);
         } else if (position == 2) {
-            return mContext.getString(R.string.attraction);
+            return mContext.getString(R.string.museum);
         } else {
-            return mContext.getString(R.string.attraction);
+            return mContext.getString(R.string.hotel);
         }
     }
 }
