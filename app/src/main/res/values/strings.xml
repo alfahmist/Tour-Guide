@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Tour Guide</string>
 
+    <!--  Category  -->
+
+    <string name="attraction">Attraction</string>
     <!-- attraction-->
     <string name="attraction_anggrek">Taman Anggrek Indonesia</string>
     <string name="attraction_aquarium">Taman Aquarium Air Tawar TMII</string>
