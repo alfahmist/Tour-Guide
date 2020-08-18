@@ -21,15 +21,15 @@ public class HotelFragment extends Fragment {
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
         words.add(new Word(R.string.hotel_gajah, R.string.hotel_loc_gajah,
-                R.drawable.gajah));
+                R.drawable.gajah,R.string.maps_hotel_gajah));
         words.add(new Word(R.string.hotel_four, R.string.hotel_loc_four,
-                R.drawable.four));
+                R.drawable.four,R.string.maps_hotel_four));
         words.add(new Word(R.string.hotel_pondok, R.string.hotel_loc_pondok,
-                R.drawable.pondok));
+                R.drawable.pondok,R.string.maps_hotel_pondok));
         words.add(new Word(R.string.hotel_swissotel, R.string.hotel_swissotel,
-                R.drawable.swissotel));
+                R.drawable.swissotel,R.string.maps_hotel_swissotel));
         words.add(new Word(R.string.hotel_westin, R.string.hotel_loc_westin,
-                R.drawable.westin));
+                R.drawable.westin,R.string.maps_hotel_westin));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The

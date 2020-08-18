@@ -15,6 +15,7 @@ public class Word {
      */
     private int mResouceImageId;
 
+    private int mLatitudeId;
     /**
      * Create a new Word object
      *
@@ -26,6 +27,13 @@ public class Word {
         mTitleId = TitleId;
         mLocationId = LocationId;
         mResouceImageId = ResouceImageId;
+    }
+
+    public Word(int TitleId, int LocationId, int ResouceImageId , int LatitudeId) {
+        mTitleId = TitleId;
+        mLocationId = LocationId;
+        mResouceImageId = ResouceImageId;
+        mLatitudeId = LatitudeId;
     }
 
     /**
@@ -47,5 +55,9 @@ public class Word {
      */
     public int getResourceImageId() {
         return mResouceImageId;
+    }
+
+    public int getLatitudeId() {
+        return mLatitudeId;
     }
 }

@@ -23,22 +23,17 @@ public class ParkFragment extends Fragment {
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
         words.add(new Word(R.string.park_anggrek, R.string.park_loc_anggrek,
-                R.drawable.taman_anggrek));
+                R.drawable.taman_anggrek,R.string.maps_park_anggrek));
         words.add(new Word(R.string.park_aquarium, R.string.park_loc_aquarium,
-                R.drawable.aquarium));
+                R.drawable.aquarium,R.string.maps_park_aquarium));
         words.add(new Word(R.string.park_istana, R.string.park_loc_istana,
-                R.drawable.istana));
+                R.drawable.istana,R.string.maps_park_istana));
         words.add(new Word(R.string.park_skyworld, R.string.park_loc_skyworld,
-                R.drawable.skyworld));
+                R.drawable.skyworld,R.string.maps_park_skyworld));
         words.add(new Word(R.string.park_wiladatika, R.string.park_loc_wiladatika,
-                R.drawable.wiladatika));
+                R.drawable.wiladatika,R.string.maps_park_wiladatika));
 
 
-//                words.add(new Word(R.string.park_fauna, R.string.park_loc_fauna,      R.drawable.fauna));
-//        words.add(new Word(R.string.park_migas, R.string.park_loc_migas,
-//                R.drawable.migas));
-//        words.add(new Word(R.string.park_prajurit, R.string.park_loc_prajurit,
-//                R.drawable.prajurit));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
@@ -50,6 +45,7 @@ public class ParkFragment extends Fragment {
         // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
+
 
         return rootView;
     }

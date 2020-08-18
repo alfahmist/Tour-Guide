@@ -21,21 +21,21 @@ public class RestaurantFragment extends Fragment {
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
         words.add(new Word(R.string.restaurant_asinan, R.string.restaurant_loc_asinan,
-                R.drawable.asinan));
+                R.drawable.asinan,R.string.maps_restaurant_asinan));
         words.add(new Word(R.string.restaurant_ayam, R.string.restaurant_loc_ayam,
-                R.drawable.ayam));
+                R.drawable.ayam,R.string.maps_restaurant_ayam));
         words.add(new Word(R.string.restaurant_defacto, R.string.restaurant_loc_defacto,
-                R.drawable.defacto));
-        words.add(new Word(R.string.restaurant_kongkow, R.string.restaurant_loc_kongkow,
-                R.drawable.kongkow));
+                R.drawable.defacto,R.string.maps_restaurant_defacto));
+        words.add(new Word(R.string.restaurant_yauda, R.string.restaurant_loc_yauda,
+                R.drawable.yauda,R.string.maps_restaurant_yauda));
         words.add(new Word(R.string.restaurant_martabak, R.string.restaurant_loc_martabak,
-                R.drawable.martabak));
+                R.drawable.martabak,R.string.maps_restaurant_martabak));
         words.add(new Word(R.string.restaurant_nomi, R.string.restaurant_loc_nomi,
-                R.drawable.nominomi));
+                R.drawable.nominomi,R.string.maps_restaurant_nomi));
         words.add(new Word(R.string.restaurant_quiznos, R.string.restaurant_loc_quiznos,
-                R.drawable.quiznos));
+                R.drawable.quiznos,R.string.maps_restaurant_quiznos));
         words.add(new Word(R.string.restaurant_locale, R.string.restaurant_loc_locale,
-                R.drawable.locale));
+                R.drawable.locale,R.string.maps_restaurant_locale));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
