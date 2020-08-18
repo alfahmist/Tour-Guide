@@ -17,6 +17,7 @@ public class FragmentAdapter extends FragmentPagerAdapter {
         mContext = context;
     }
 
+    // Get fragment page
     @NonNull
     @Override
     public Fragment getItem(int position) {
@@ -31,12 +32,12 @@ public class FragmentAdapter extends FragmentPagerAdapter {
             return new HotelFragment();
         }
     }
-
+    // Total fragment
     @Override
     public int getCount() {
         return 4;
     }
-
+    // Get Title of fragment page
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
