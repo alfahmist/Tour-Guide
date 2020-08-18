@@ -23,7 +23,7 @@ public class ParkFragment extends Fragment {
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
         words.add(new Word(R.string.park_anggrek, R.string.park_loc_anggrek,
-                R.drawable.taman_anggrek,R.string.maps_park_anggrek));
+                R.drawable.anggrek,R.string.maps_park_anggrek));
         words.add(new Word(R.string.park_aquarium, R.string.park_loc_aquarium,
                 R.drawable.aquarium,R.string.maps_park_aquarium));
         words.add(new Word(R.string.park_istana, R.string.park_loc_istana,

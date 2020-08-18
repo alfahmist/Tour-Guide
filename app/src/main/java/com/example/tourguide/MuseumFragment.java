@@ -21,15 +21,15 @@ public class MuseumFragment extends Fragment {
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word(R.string.museum_fauna, R.string.museum_loc_fauna, R.drawable.fauna));
+        words.add(new Word(R.string.museum_fauna, R.string.museum_loc_fauna, R.drawable.fauna,R.string.maps_museum_fauna));
         words.add(new Word(R.string.museum_migas, R.string.museum_loc_migas,
-                R.drawable.migas));
+                R.drawable.migas,R.string.maps_museum_migas));
         words.add(new Word(R.string.museum_prajurit, R.string.museum_loc_prajurit,
-                R.drawable.prajurit));
+                R.drawable.prajurit,R.string.maps_museum_prajurit));
         words.add(new Word(R.string.museum_gajah, R.string.museum_loc_gajah,
-                R.drawable.gajah));
+                R.drawable.museumgajah,R.string.maps_museum_gajah));
         words.add(new Word(R.string.museum_fatahillah, R.string.museum_loc_fatahillah,
-                R.drawable.fatahillah));
+                R.drawable.fatahillah,R.string.maps_museum_fatahillah));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

@@ -31,7 +31,7 @@
             android:layout_marginBottom="16dp"
             android:padding="22dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/taman_anggrek" />
+            android:src="@drawable/anggrek" />
         />
 
         <LinearLayout
