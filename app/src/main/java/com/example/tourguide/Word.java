@@ -14,21 +14,19 @@ public class Word {
      * Image resource ID for mResouceImageId
      */
     private int mResouceImageId;
-
+    /**
+     * String resource ID for mLatitudeId
+     */
     private int mLatitudeId;
+
     /**
      * Create a new Word object
      *
-     * @param TitleId
-     * @param LocationId
-     * @param ResouceImageId
+     * @param TitleId get from R.string
+     * @param LocationId get from R.string
+     * @param ResouceImageId get from R.string
+     * @param LatitudeId get from R.string
      */
-    public Word(int TitleId, int LocationId, int ResouceImageId) {
-        mTitleId = TitleId;
-        mLocationId = LocationId;
-        mResouceImageId = ResouceImageId;
-    }
-
     public Word(int TitleId, int LocationId, int ResouceImageId , int LatitudeId) {
         mTitleId = TitleId;
         mLocationId = LocationId;
@@ -56,7 +54,9 @@ public class Word {
     public int getResourceImageId() {
         return mResouceImageId;
     }
-
+    /**
+     * Get the string resource ID for Latitude.
+     */
     public int getLatitudeId() {
         return mLatitudeId;
     }

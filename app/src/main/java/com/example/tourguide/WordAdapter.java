@@ -75,7 +75,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
                 if (mapIntent.resolveActivity(getContext().getPackageManager()) != null) {
                     getContext().startActivity(mapIntent);
                 }
-
+                // Toast title
                 Toast.makeText(getContext(), currentWord.getTitleId(), Toast.LENGTH_SHORT).show();
             }
         });

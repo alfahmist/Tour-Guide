@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -19,7 +20,7 @@
             android:lineHeight="36sp"
             android:text="Taman Anggrek Indonesia Permai"
             android:textAlignment="center"
-            android:textColor="#000"
+            android:textColor="@color/colorBlack"
             android:textSize="24dp"
             android:textStyle="bold" />
 
@@ -32,7 +33,6 @@
             android:scaleType="centerCrop"
             android:src="@drawable/taman_anggrek" />
         />
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -53,22 +53,27 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:text="Jl. Pinang Ranti No. 78, Pinang Ranti, Makasar, Jakarta Timur"
-                android:textColor="#000"
+                android:textColor="@color/colorBlack"
                 android:textSize="16sp" />
-
-
 
         </LinearLayout>
 
         <TextView
             android:id="@+id/maps"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-light"
-            android:text="Get direction>>"
+            android:layout_width="100dp"
+            android:layout_height="32dp"
             android:layout_gravity="right"
-            android:textColor="#000"
-            android:textSize="16sp" />
+            android:layout_marginTop="8dp"
+            android:background="#ddd"
+            android:clickable="true"
+            android:fontFamily="sans-serif-light"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="Direction"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            tools:ignore="RtlCompat" />
 
     </LinearLayout>
 

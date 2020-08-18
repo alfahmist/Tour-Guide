@@ -42,13 +42,6 @@
     <string name="park_loc_skyworld">Jl. Taman Mini Raya, Lubang Buaya, Cipayung, Jakarta Timur.</string>
     <string name="park_loc_wiladatika">Jl. Jambore 1, Cibubur, Ciracas, Jakarta Timur.</string>
 
-    <!-- museum location   -->
-    <string name="museum_loc_fauna">Jl. Taman Mini Indonesia Indah, Ceger, Cipayung, Jakarta Timur.</string>
-    <string name="museum_loc_migas">Jl. Taman Mini Indonesia Indah, Bambu Apus, Cipayung, Jakarta Timur.</string>
-    <string name="museum_loc_prajurit">Jl. Raya Taman Mini, Ceger, Cipayung, Jakarta Timur.</string>
-    <string name="museum_loc_gajah">Jl. Jembatan Batu No.3, Pinangsia, Tamansari, RT.3/RW.6, Pinangsia, Tamansari, Kota Jakarta Barat</string>
-    <string name="museum_loc_fatahillah">Jl. Taman Fatahillah No.1, Pinangsia, Tamansari, Kota Jakarta Bara</string>
-
     <!-- restaurant-->
     <string name="restaurant_quiznos">Quiznos Sub</string>
     <string name="restaurant_locale">Restoran 24 Jam: Kedai Locale</string>
@@ -58,6 +51,13 @@
     <string name="restaurant_ayam">Ayam Goreng Mat Lengket</string>
     <string name="restaurant_asinan">Asinan Betawi H.Mansyur</string>
     <string name="restaurant_defacto">De Facto Coffee &amp; Eatery</string>
+
+    <!-- museum location   -->
+    <string name="museum_loc_fauna">Jl. Taman Mini Indonesia Indah, Ceger, Cipayung, Jakarta Timur.</string>
+    <string name="museum_loc_migas">Jl. Taman Mini Indonesia Indah, Bambu Apus, Cipayung, Jakarta Timur.</string>
+    <string name="museum_loc_prajurit">Jl. Raya Taman Mini, Ceger, Cipayung, Jakarta Timur.</string>
+    <string name="museum_loc_gajah">Jl. Jembatan Batu No.3, Pinangsia, Tamansari, RT.3/RW.6, Pinangsia, Tamansari, Kota Jakarta Barat</string>
+    <string name="museum_loc_fatahillah">Jl. Taman Fatahillah No.1, Pinangsia, Tamansari, Kota Jakarta Bara</string>
 
     <!-- restaurant location -->
     <string name="restaurant_loc_quiznos">Jl. Pemuda, Rawamangun, Jakarta Timur.</string>
@@ -69,26 +69,28 @@
     <string name="restaurant_loc_asinan">Jl. Taman Kamboja 3 No. 10, Rawamangun, Jakarta Timur.</string>
     <string name="restaurant_loc_defacto">Jl.Balai Pustaka Timur, Blok A7 No.39, Rawamangun, Jakarta Timur.</string>
 
+    <!-- maps park-->
     <string name="maps_park_anggrek">-6.292264, 106.880567</string>
     <string name="maps_park_aquarium">-6.305617, 106.894814</string>
     <string name="maps_park_istana">-6.303208, 106.900847</string>
     <string name="maps_park_skyworld">-6.299428, 106.894905</string>
     <string name="maps_park_wiladatika">-6.368976, 106.890471a</string>
 
+    <!-- maps museum-->
     <string name="maps_museum_fauna">-6.303930, 106.901007</string>
     <string name="maps_museum_migas">-6.301926, 106.905330</string>
     <string name="maps_museum_prajurit">-6.305488, 106.896792</string>
     <string name="maps_museum_gajah">-6.176285, 106.821687</string>
     <string name="maps_museum_fatahillah">-6.135163, 106.813332</string>
 
-    <!-- hotel-->
+    <!-- maps hotel-->
     <string name="maps_hotel_swissotel">-6.108415, 106.740303</string>
     <string name="maps_hotel_gajah">-6.145728, 106.815478</string>
     <string name="maps_hotel_pondok">-6.264789, 106.782601</string>
     <string name="maps_hotel_westin">-6.224189, 106.833718</string>
     <string name="maps_hotel_four">-6.232269, 106.820625</string>
 
-    <!-- restaurant-->
+    <!-- maps restaurant-->
     <string name="maps_restaurant_quiznos">-6.197559, 106.828839</string>
     <string name="maps_restaurant_locale">-6.196154, 106.884027</string>
     <string name="maps_restaurant_martabak">-6.197577, 106.886276</string>
@@ -97,4 +99,5 @@
     <string name="maps_restaurant_ayam">-6.210483, 106.901205</string>
     <string name="maps_restaurant_asinan">-6.200827, 106.884977</string>
     <string name="maps_restaurant_defacto">-6.198430, 106.886286</string>
+
 </resources>
